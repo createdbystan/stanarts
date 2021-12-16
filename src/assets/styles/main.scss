@@ -1,0 +1,38 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+html { 
+  overflow-y: scroll;
+}
+  
+body { 
+  font-size: 22px;
+  font-family: $primary-font;
+  width: 80%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #151515;
+  color: #fff;
+}
+  
+.page-content {
+  width: 100%;
+  padding: 8% 20%;
+  
+  h1 {
+    font-family: $secondary-font;
+    font-size: 40px;
+    letter-spacing: 8px;
+    padding: 15% 0 15% 2%;
+    text-transform: uppercase;
+  }
+  
+  p {
+    padding-left: 10%;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+  }
+}
